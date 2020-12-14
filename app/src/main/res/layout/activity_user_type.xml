@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D4FF33"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/first_line"
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white_line"
+            android:layout_centerHorizontal="true"></View>
+        <View
+            android:id="@+id/secound_line"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/red_line"
+            android:layout_toRightOf="@+id/first_line"
+
+            ></View>
+        <View
+            android:id="@+id/third_line"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/white_line"
+            android:layout_toRightOf="@+id/secound_line"
+
+            ></View>
+        <View
+            android:id="@+id/fourth_line"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/purple_line"
+            android:layout_toRightOf="@+id/third_line"
+
+            ></View>
+        <View
+            android:id="@+id/five_line"
+            android:layout_width="20dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/green_line"
+            android:layout_toRightOf="@+id/fourth_line"
+
+            ></View>
+        <View
+            android:id="@+id/six_line"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/white_line"
+            android:layout_toRightOf="@+id/five_line"
+
+            ></View>
+        <View
+            android:id="@+id/seven_line"
+            android:layout_width="20dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/red_line"
+            android:layout_toRightOf="@+id/six_line"
+
+            ></View>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Create an Account as a . . "
+            android:textColor="#000"
+            android:textSize="30dp"></TextView>
+        <Button
+            android:id="@+id/guardian"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="guardian"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:background="@drawable/btn_rounded_red"
+            />
+        <Button
+            android:id="@+id/student"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Student"
+            android:textSize="30dp"
+            android:background="@drawable/btn_rounded_red"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            >
+            <TextView
+                android:id="@+id/tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/baloo"
+                android:text="CodingBurg"
+                android:textColor="#000"
+                android:textSize="30dp"></TextView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
